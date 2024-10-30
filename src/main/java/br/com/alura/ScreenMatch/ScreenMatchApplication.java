@@ -15,7 +15,7 @@ public class ScreenMatchApplication implements CommandLineRunner {
 	}
 
 	String nomeDaSerie = "gilmore+girls&Season";
-	String buscaSerie = "https://www.omdbapi.com/?t=" + nomeDaSerie + /*busca.replace(" ", "+")Serve para subtituir um termo + */"&apikey=85372b7a";
+	String buscaSerie = "https://www.omdbapi.com/?t=" + nomeDaSerie + /*busca.replace(" ", "+")Serve para subtituir um termo + */"&apikey=SuaChave";
 	@Override
 	public void run(String... args) throws Exception {
 		var consumoAPI = new ConsumoAPI();
